@@ -1,6 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faFileCode } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin, faGithub, faYoutube, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import MainLogo from '../../assets/images/logo-a.png'
 import './index.scss'
@@ -22,6 +22,9 @@ const Sidebar = () => {
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
+            <a target="_blank" rel="noreferrer" activeclassname="active" className="portfolio-link" href="https://akakiplimo.carrd.co">
+                <FontAwesomeIcon icon={faFileCode} color="#4d4d4e" />
+            </a>
         </nav>
         <ul>
             <li>
