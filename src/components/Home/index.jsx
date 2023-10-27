@@ -10,7 +10,7 @@ const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     const nameArray = ['d', 'r', 'i', 'a', 'n']
-    const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r', '.']
+    const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r']
 
     useEffect(() => {
         setTimeout(() => {
@@ -28,18 +28,23 @@ const Home = () => {
                         <br />
                         <span className={`${letterClass} _13`}>I</span>
                         <span className={`${letterClass} _14`}>'m</span>
-                        <img src={LogoTitle} alt="dev" />
+                        <img src={LogoTitle} alt="A" />
                         <AnimatedLetters letterClass={letterClass} strArr={nameArray} index={15} />
                         <br />
                         <AnimatedLetters letterClass={letterClass} strArr={jobArray} index={22} />
                     </h1>
-                    <h2>Frontend Developer | Javascript, TypeScript, Python, C# Expert | Game Developer</h2>
+                    <h2>Software Engineer | Frontend Developer
+                        <br/>
+                        Javascript, TypeScript, Python, Node.js, React, Next.js
+                        <br/>
+                        Learning about 3D Websites & Game Development
+                    </h2>
                     <Link to="/contact" className='flat-button'>CONTACT ME</Link>
                 </div>
                 <Logo />
             </div>
 
-            <Loader type="pacman" />
+            <Loader active={true} type="pacman" />
         </>
     );
 }

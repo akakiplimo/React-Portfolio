@@ -48,8 +48,8 @@ const Contact = () => {
                 </h1>
                 <p>
                     I am interested in freelance and remote opportunities - in particular ambitious projects.
-                    If for whatever reason you have a request or a question, don't hesitate to contact me using
-                    the form below
+                    <br/>
+                    Don't hesitate to send a message 👇
                 </p>
                 <div className='contact-form'>
                     <form ref={refForm} onSubmit={sendEmail}>

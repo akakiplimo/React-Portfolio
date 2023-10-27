@@ -5,20 +5,37 @@
         left: 10%;
         top: 50%;
         transform: translateY(-50%);
-        width: 40%;
+        width: 40vw;
         max-height: 90%;
+        margin-left: 50px;
     }
 
     h1 {
         color: #ffffff;
-        font-size: 53px;
+        font-size: 80px;
         margin: 0;
-        font-family: 'Coolvetica';
+        font-family: 'Coolvetica', serif;
         font-weight: 400;
 
+        @media only screen and (max-width: 1200px) {
+            font-size: 50px;
+        }
+
+        @media only screen and (max-width: 805px) {
+            font-size: 40px;
+        }
+
+        @media only screen and (max-width: 660px) {
+            font-size: 30px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            font-size: 20px;
+        }
+
         &::before {
-            content: '<h1>';
-            font-family: 'La Belle Aurore';
+            content: '<h1> pssst, hover over the letters for a little magic trick...';
+            font-family: 'La Belle Aurore', serif;
             color: #ffd700;
             font-size: 20px;
             position: absolute;
@@ -30,7 +47,7 @@
 
         &::after {
             content: '</h1>';
-            font-family: 'La Belle Aurore';
+            font-family: 'La Belle Aurore', serif;
             color: #ffd700;
             font-size: 20px;
             position: absolute;
@@ -46,6 +63,22 @@
             height: auto;
             animation: fadeIn 1s linear both;
             animation-delay: 1.4s;
+
+            @media only screen and (max-width: 1150px) {
+                width: 50px;
+            }
+
+            @media only screen and (max-width: 805px) {
+                width: 40px;
+            }
+
+            @media only screen and (max-width: 660px) {
+                width: 30px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                width: 20px;
+            }
         }
     }
 

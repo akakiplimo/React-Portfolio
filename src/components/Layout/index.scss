@@ -16,7 +16,7 @@
     bottom: 0;
     left: 120px;
     font-size: 18px;
-    font-family: 'La Belle Aurore';
+    font-family: 'La Belle Aurore', serif;
 }
 
 .bottom-tag-html {
@@ -26,7 +26,7 @@
 .container {
     width: 100%;
     will-change: contents;
-    height: 90%;
+    height: 100%;
     min-height: 566px;
     position: absolute;
     opacity: 0;
@@ -48,10 +48,11 @@
         vertical-align: middle;
         display: table-cell;
         max-height: 90%;
+        margin-left: 50px;
 
         h1 {
-            font-size: 53px;
-            font-family: 'Coolvetica';
+            font-size: 80px;
+            font-family: 'Coolvetica', serif;
             color: #ffd700;
             font-weight: 400;
             margin-top: 0;
@@ -59,9 +60,25 @@
             margin-bottom: 40px;
             left: 10px;
 
+            @media only screen and (max-width: 1200px) {
+                font-size: 50px;
+            }
+
+            @media only screen and (max-width: 805px) {
+                font-size: 40px;
+            }
+
+            @media only screen and (max-width: 660px) {
+                font-size: 30px;
+            }
+
+            @media only screen and (max-width: 600px) {
+                font-size: 20px;
+            }
+
             &::before {
-                content:'<h1>';
-                font-family: 'La Belle Aurore';
+                content:'<h1> pssst, hover over the title for a little magic trick...';
+                font-family: 'La Belle Aurore', serif;
                 font-size: 18px;
                 position: absolute;
                 margin-top: -10px;
@@ -72,7 +89,7 @@
 
             &::after {
                 content:'</h1>';
-                font-family: 'La Belle Aurore';
+                font-family: 'La Belle Aurore', serif;
                 font-size: 18px;
                 line-height: 18px;
                 position: absolute;
@@ -84,7 +101,7 @@
         }
 
         p {
-            font-style: 13px;
+            font-size: 13px;
             color: #fff;
             font-family: sans-serif;
             font-weight: 300;

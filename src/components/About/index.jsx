@@ -24,17 +24,16 @@ const About = () => {
                             index={15} />
                     </h1>
                     <p>
-                        I'm a dedicated front-end developer looking for a role in an
-                        established IT company with the opportunity to work with the latest
+                        I'm a dedicated software developer looking for a role to work with the latest
                         technologies on challenging and diverse projects.
                     </p>
                     <p align="LEFT">
-                        I'm quiet, confident, naturally curious, and perpetually working on
-                        improving my development skills and knowledge problem at a time.
+                        I'm confident, naturally curious, and perpetually working on
+                        improving my development skills and knowledge one problem at a time.
                     </p>
                     <p>
                         I would define myself as a family
-                        person, a sports fanatic, music & photography enthusiast, and tech-obsessed!!!
+                        person, a sports, music & photography enthusiast and a self-confessed tech-nerd!
                     </p>
                 </div>
 
