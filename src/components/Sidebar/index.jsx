@@ -22,7 +22,7 @@ const Sidebar = () => {
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
-            <a target="_blank" rel="noreferrer" activeclassname="active" className="portfolio-link" href="https://akakiplimo.carrd.co">
+            <a target="_blank" rel="noreferrer" activeclassname="active" className="portfolio-link" href="https://portfolio.akakiplimo.pro">
                 <FontAwesomeIcon icon={faFileCode} color="#4d4d4e" />
             </a>
         </nav>
